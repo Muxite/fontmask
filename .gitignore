@@ -1,0 +1,16 @@
+node_modules/
+dist/
+reports/
+*.log
+.DS_Store
+.env
+coverage/
+playwright-report/
+test-results/
+*.zip
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.python-version
+.venv/
+python/tests/output/

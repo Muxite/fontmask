@@ -1,0 +1,22 @@
+{
+  "name": "fontmask",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "build": "corepack pnpm -r build",
+    "build:extension": "corepack pnpm --filter @fontmask/extension build",
+    "build:collector": "corepack pnpm --filter @fontmask/collector build",
+    "test:lab": "corepack pnpm --filter @fontmask/lab test",
+    "test:py": "python python/run_tests.py",
+    "cohort": "corepack pnpm --filter @fontmask/lab cohort",
+    "browsers": "corepack pnpm --filter @fontmask/lab exec playwright install chromium",
+    "cohort:baseline": "corepack pnpm --filter @fontmask/lab exec node ./dist/cli/cohort.js --baseline",
+    "bench:compare": "corepack pnpm --filter @fontmask/lab bench:compare --"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.24",
+    "@types/node": "^22.13.10",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.8.2"
+  }
+}

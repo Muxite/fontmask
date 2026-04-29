@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Fontmask",
+  "description": "Defends font-based fingerprint tracking with tunable probabilistic masking.",
+  "version": "0.1.0",
+  "icons": {
+    "48": "ui/icon48.png",
+    "128": "ui/icon128.png"
+  },
+  "action": {
+    "default_title": "Fontmask",
+    "default_popup": "ui/popup.html"
+  },
+  "options_ui": {
+    "page": "ui/options.html",
+    "open_in_tab": true
+  },
+  "permissions": ["storage", "scripting", "tabs", "webNavigation"],
+  "host_permissions": ["<all_urls>", "file:///*"],
+  "background": {
+    "service_worker": "dist/background.js",
+    "type": "module"
+  }
+}

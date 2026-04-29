@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Fontmask collector fixture</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <main>
+      <h1>Fontmask fixture</h1>
+      <p id="status">Collecting…</p>
+    </main>
+    <script src="../packages/collector/dist/font-signals.iife.js"></script>
+    <script type="module">
+      const status = document.getElementById("status");
+      window.FontmaskCollector.collectFontSignals()
+        .then((payload) => {
+          window.__FONTMASK_RESULT__ = payload;
+          status.textContent = "ready";
+        })
+        .catch((error) => {
+          status.textContent = "error";
+          window.__FONTMASK_ERROR__ = String(error);
+        });
+    </script>
+  </body>
+</html>

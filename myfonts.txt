@@ -1,0 +1,182 @@
+4207,142	default, serif
+4258,143	sans-serif, Arial, Helvetica
+3470,150	monospace, Consolas
+4275,179	cursive, Comic Sans MS
+3866,157	fantasy, Impact
+4296,170	system-ui, Segoe UI
+3030,143	Agency FB
+4000,143	Algerian
+2963,173	Angsana New, AngsanaUPC
+3514,145	Arial Narrow
+4328,128	Bahnschrift, Bahnschrift Light, Bahnschrift SemiBold
+4192,146	Baskerville Old Face
+4272,141	Bell MT
+4163,140	Berlin Sans FB
+3727,152	Bernard MT Condensed
+3668,164	Blackadder ITC
+4361,153	Bodoni MT
+5080,149	Bodoni MT Black
+2940,151	Bodoni MT Condensed
+4527,159	Book Antiqua
+4646,144	Bookman Old Style, Bookshelf Symbol 7
+4338,159	Bradley Hand ITC
+5375,145	Broadway
+2964,160	Browallia New, BrowalliaUPC
+3349,157	Brush Script MT
+4020,157	Calibri
+4215,145	Californian FB
+4493,148	Calisto MT
+4311,150	Cambria
+4311,128	Cambria Math
+4134,157	Candara
+3677,149	Cascadia Code, Cascadia Mono
+5378,155	Castellar
+3928,145	Centaur
+4584,153	Century, Century Schoolbook
+4482,152	Century Gothic
+2764,148	Chiller
+4179,135	Colonna MT
+4433,157	Constantia
+4880,147	Cooper Black
+4353,138	Copperplate Gothic, Copperplate Gothic Light
+4121,157	Corbel
+4030,157	Corbel Light
+2959,177	Cordia New, CordiaUPC
+3772,145	Courier, Courier 10 Pitch, Courier New
+3777,170	Curlz MT
+3777,149	DejaVu Sans Mono
+4290,134	DengXian
+4184,134	DengXian Light
+2939,167	DilleniaUPC
+4307,170	Ebrima, Gadugi, Leelawadee UI, Segoe UI Emoji, Segoe UI Historic
+3541,151	Edwardian Script ITC
+5067,165	Elephant
+5893,149	Engravers MT
+3046,157	EucrosiaUPC
+3318,128	FangSong, KaiTi, NSimSun, SimHei, SimSun, 宋体
+4626,149	Felix Titling
+4216,135	Footlight MT Light
+4226,140	Forte
+4035,145	Franklin Gothic Book
+4397,145	Franklin Gothic Heavy
+4174,145	Franklin Gothic Medium
+2893,153	FreesiaUPC
+2361,151	Freestyle Script
+3186,146	French Script MT
+3261,128	Gabriola
+4076,144	Garamond
+4599,145	Georgia
+3914,177	Gigi
+5837,159	Gill Sans, Gill Sans Light, Gill Sans SemiBold, Gill Sans UltraBold
+4089,148	Gill Sans MT
+2922,154	Gill Sans MT Condensed
+4079,143	Goudy Old Style
+8705,175	Goudy Stout
+3033,133	Haettenschweiler
+3981,151	Harrington
+4486,149	High Tower Text
+4555,151	Imprint MT Shadow
+3653,130	Informal Roman
+4096,159	Ink Free
+2971,162	IrisUPC
+2870,135	JasmineUPC
+4354,291	Javanese Text
+4379,193	Jokerman
+2773,145	Juice ITC
+2962,126	KodchiangUPC
+4434,174	Kristen ITC
+3558,138	Kunstler Script
+4286,153	Leelawadee
+2797,122	LilyUPC
+4634,146	Lucida Bright
+5234,160	Lucida Calligraphy
+3776,129	Lucida Console
+4748,146	Lucida Fax
+5228,164	Lucida Handwriting
+4557,146	Lucida Sans
+3795,145	Lucida Sans Typewriter
+4557,197	Lucida Sans Unicode
+5184,155	Magneto
+4380,153	Maiandra GD
+4387,170	Malgun Gothic
+5451,128	Marlett
+4908,171	Matura MT Script Capitals
+2966,128	Microsoft Himalaya
+4586,171	Microsoft JhengHei, Microsoft JhengHei Regular
+4390,171	Microsoft JhengHei Light
+4586,163	Microsoft JhengHei UI, Microsoft JhengHei UI Regular
+4390,163	Microsoft JhengHei UI Light
+4307,167	Microsoft New Tai Lue
+4325,163	Microsoft PhagsPa
+4189,145	Microsoft Sans Serif, MS Sans Serif
+4307,163	Microsoft Tai Le
+4643,169	Microsoft YaHei, 微软雅黑
+4372,163	Microsoft YaHei Light
+4643,163	Microsoft YaHei UI
+4372,168	Microsoft YaHei UI Light
+3276,128	Microsoft Yi Baiti
+3275,128	MingLiU-ExtB, MingLiU_HKSCS-ExtB, SimSun-ExtB
+3242,156	Mistral
+4190,136	Mongolian Baiti
+3634,140	Monotype Corsiva
+3254,128	MS Gothic, ＭＳ ゴシック
+4580,133	MS Outlook
+3844,128	MS PGothic, MS UI Gothic, ＭＳ Ｐゴシック
+4805,155	MS Reference Sans Serif
+4662,157	MS Reference Specialty
+3558,129	MT Extra
+4426,207	MV Boli
+4307,238	Myanmar Text
+2394,135	Niagara Engraved, Niagara Solid
+4312,170	Nirmala UI
+4612,185	Noto Sans SC, Noto Sans SC Regular
+4985,184	Noto Serif SC
+4279,156	Old English Text MT
+2532,147	Onyx
+2902,119	Palace Script MT
+4556,173	Palatino Linotype
+3794,201	Papyrus, Papyrus Condensed
+2935,137	Parchment
+3808,147	Perpetua
+4547,151	Perpetua Titling MT
+2385,129	Playbill
+4016,128	PMingLiU-ExtB
+3858,143	Poor Richard
+3652,168	Pristina
+6024,171	Ravie
+4442,151	Rockwell
+3063,151	Rockwell Condensed
+4596,339	Sans Serif Collection
+4235,128	Segoe Fluent Icons, Segoe MDL2 Assets
+4961,223	Segoe Print
+5130,203	Segoe Script
+4808,170	Segoe UI Black
+4075,170	Segoe UI Light
+4439,170	Segoe UI Semibold
+4342,170	Segoe UI Symbol
+4433,170	Segoe UI Variable Small
+4560,159	Showcard Gothic, Shree Devanagari 714, Shree Devanagari 714 Bold, Shree Devanagari 714 Bold Italic, Shree Devanagari 714 Italic
+4880,128	Sitka Small
+4586,128	Sitka Text
+4755,165	Snap ITC
+4252,151	Stencil
+4337,169	Sylfaen
+3713,157	Symbol
+4276,155	Tahoma
+4316,167	Tempus Sans ITC
+4159,149	Trebuchet MS
+3717,139	Tw Cen MT
+3030,137	Tw Cen MT Condensed
+4838,155	Verdana
+4658,207	Viner Hand ITC
+4019,153	Vivaldi
+3549,155	Vladimir Script
+4535,128	Webdings
+8275,157	Wide Latin
+5262,143	Wingdings, Wingdings 2, Wingdings 3
+4520,165	Yu Gothic, Yu Gothic Regular, 游ゴシック
+4290,165	Yu Gothic Light
+4527,165	Yu Gothic Medium
+4424,170	Yu Gothic UI, Yu Gothic UI Regular
+4198,170	Yu Gothic UI Light
+4576,170	Yu Gothic UI Semibold

@@ -1,0 +1,96 @@
+:root {
+  font-family:
+    Inter,
+    "Segoe UI",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  background: radial-gradient(circle at 20% 20%, #111936, #05060c 52%);
+  color: #dfe6fb;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main.card {
+  width: min(360px, 90vw);
+  padding: 20px;
+  backdrop-filter: blur(12px);
+  background-color: rgb(255 255 255 / 0.04);
+  border: 1px solid rgb(255 255 255 / 0.08);
+  border-radius: 16px;
+  box-shadow:
+    0 10px 30px rgb(8 17 53 / 0.45),
+    inset 0 1px rgb(255 255 255 / 0.04);
+}
+
+main.card.wide {
+  width: min(760px, 92vw);
+  margin: 32px auto;
+}
+
+h1 {
+  margin: 0;
+  letter-spacing: 0.06em;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  color: #9ea9d6;
+}
+
+.muted {
+  margin: 4px 0 12px;
+  color: #9aa3c9;
+}
+
+label.field {
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+  color: #c9d7ff;
+}
+
+select,
+button,
+input {
+  appearance: none;
+  border-radius: 10px;
+  border: 1px solid rgb(255 255 255 / 0.09);
+  background: rgb(255 255 255 / 0.05);
+  color: inherit;
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button.secondary {
+  background: transparent;
+}
+
+footer {
+  margin-top: 14px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+section label {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.actions {
+  gap: 8px;
+  flex-wrap: wrap;
+}

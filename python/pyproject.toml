@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fontmask-lab"
+version = "0.1.0"
+description = "Matplotlib reporting and tests for Fontmask lab cohorts"
+requires-python = ">=3.10"
+dependencies = [
+  "matplotlib>=3.7",
+  "numpy>=1.24",
+  "pytest>=7.4",
+  "scikit-learn>=1.3",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["fontmask_lab*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = [
+  "real: requires reports/ cohort data on disk",
+  "slow: spawns Playwright cohort runs via subprocess (several minutes)",
+]

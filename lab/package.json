@@ -1,0 +1,19 @@
+{
+  "name": "@fontmask/lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "cohort": "node ./dist/cli/cohort.js",
+    "test": "node ./dist/tests/smoke-tests.js",
+    "bench:compare": "node ./dist/tools/compareRenderBench.js"
+  },
+  "dependencies": {
+    "@fontmask/collector": "workspace:*",
+    "@fontmask/config": "workspace:*",
+    "@fontmask/viz": "workspace:*",
+    "playwright": "^1.50.0"
+  },
+  "devDependencies": {}
+}

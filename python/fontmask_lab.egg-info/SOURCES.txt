@@ -1,0 +1,16 @@
+pyproject.toml
+fontmask_lab/__init__.py
+fontmask_lab/__main__.py
+fontmask_lab/dashboard.py
+fontmask_lab/numeric_document.py
+fontmask_lab/stats.py
+fontmask_lab/synthetic.py
+fontmask_lab.egg-info/PKG-INFO
+fontmask_lab.egg-info/SOURCES.txt
+fontmask_lab.egg-info/dependency_links.txt
+fontmask_lab.egg-info/requires.txt
+fontmask_lab.egg-info/top_level.txt
+tests/test_cosine_mass.py
+tests/test_dashboard_png_metrics.py
+tests/test_numeric_document.py
+tests/test_pairwise_entropy_collisions.py
