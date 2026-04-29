@@ -60,7 +60,7 @@ export const DEFAULT_MASKING_CONFIG: MaskingConfig = {
   hooks: {
     hookCanvasMeasureText: true,
     hookDocumentFontsCheck: true,
-    hookOffsetDimensions: false,
+    hookOffsetDimensions: true,
   },
   work: {
     derivedStateCacheScope: "per_document",
@@ -241,7 +241,7 @@ export const MASKING_PRESETS: Record<MaskingPresetId, MaskingConfig> = {
     hooks: {
       hookCanvasMeasureText: true,
       hookDocumentFontsCheck: true,
-      hookOffsetDimensions: false,
+      hookOffsetDimensions: true,
     },
     work: {
       derivedStateCacheScope: "per_document",
@@ -261,7 +261,7 @@ export const MASKING_PRESETS: Record<MaskingPresetId, MaskingConfig> = {
     hooks: {
       hookCanvasMeasureText: true,
       hookDocumentFontsCheck: true,
-      hookOffsetDimensions: false,
+      hookOffsetDimensions: true,
     },
     work: {
       derivedStateCacheScope: "per_frame_tick",

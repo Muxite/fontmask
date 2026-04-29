@@ -7,12 +7,20 @@ const bindField = (id, value) => {
 
 const readNumber = (id) => Number(document.getElementById(id)?.value);
 
+const bindCheckbox = (id, value) => {
+  const input = document.getElementById(id);
+  if (input && typeof value === "boolean") {
+    input.checked = value;
+  }
+};
+
 const load = async () => {
   const response = await chrome.runtime.sendMessage({ type: "fontmask/read-state" });
   if (!response?.ok) {
     return;
   }
   const overrides = response.state?.overrides ?? {};
+  const resolved = response.resolved?.hooks;
   bindField("measureTextMaxOffsetPx", overrides.metrics?.measureTextMaxOffsetPx);
   bindField("metricsQuantizeStepPx", overrides.metrics?.metricsQuantizeStepPx);
   bindField("phantomFontCount", overrides.fontSurface?.phantomFontCount);
@@ -23,6 +31,19 @@ const load = async () => {
   bindField(
     "maxFontsChecksPerInvocation",
     overrides.work?.maxFontsChecksPerInvocation
+  );
+  const hooks = resolved ?? {};
+  bindCheckbox(
+    "hookCanvasMeasureText",
+    hooks.hookCanvasMeasureText !== false
+  );
+  bindCheckbox(
+    "hookDocumentFontsCheck",
+    hooks.hookDocumentFontsCheck !== false
+  );
+  bindCheckbox(
+    "hookOffsetDimensions",
+    hooks.hookOffsetDimensions !== false
   );
 };
 
@@ -38,6 +59,17 @@ const save = async () => {
     },
     work: {
       maxFontsChecksPerInvocation: readNumber("maxFontsChecksPerInvocation"),
+    },
+    hooks: {
+      hookCanvasMeasureText: Boolean(
+        document.getElementById("hookCanvasMeasureText")?.checked
+      ),
+      hookDocumentFontsCheck: Boolean(
+        document.getElementById("hookDocumentFontsCheck")?.checked
+      ),
+      hookOffsetDimensions: Boolean(
+        document.getElementById("hookOffsetDimensions")?.checked
+      ),
     },
   };
   await chrome.runtime.sendMessage({

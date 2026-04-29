@@ -42,6 +42,21 @@
           <input type="number" id="maxFontsChecksPerInvocation" />
         </label>
       </section>
+      <section>
+        <h2>API hooks</h2>
+        <label class="inline-check">
+          <input type="checkbox" id="hookCanvasMeasureText" checked />
+          Canvas measureText / TextMetrics
+        </label>
+        <label class="inline-check">
+          <input type="checkbox" id="hookDocumentFontsCheck" checked />
+          document.fonts.check
+        </label>
+        <label class="inline-check">
+          <input type="checkbox" id="hookOffsetDimensions" checked />
+          DOM layout (boxes, offsets, client/scroll sizes)
+        </label>
+      </section>
       <footer class="actions">
         <button id="save" type="button">Save</button>
         <button id="export" type="button" class="secondary">Export JSON</button>

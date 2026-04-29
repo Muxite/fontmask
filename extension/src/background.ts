@@ -208,7 +208,10 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
   }
   if (message.type === "fontmask/read-state") {
     readPersisted()
-      .then((state) => sendResponse?.({ ok: true, state }))
+      .then((state) => {
+        const resolved = resolveMaskedConfigFromState(state);
+        sendResponse?.({ ok: true, state, resolved });
+      })
       .catch(() => sendResponse?.({ ok: false }));
     return true;
   }

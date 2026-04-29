@@ -90,6 +90,12 @@ section label {
   margin-bottom: 12px;
 }
 
+section label.inline-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .actions {
   gap: 8px;
   flex-wrap: wrap;

@@ -17,7 +17,7 @@ var DEFAULT_MASKING_CONFIG = {
   hooks: {
     hookCanvasMeasureText: true,
     hookDocumentFontsCheck: true,
-    hookOffsetDimensions: false
+    hookOffsetDimensions: true
   },
   work: {
     derivedStateCacheScope: "per_document",
@@ -133,7 +133,7 @@ var MASKING_PRESETS = {
     hooks: {
       hookCanvasMeasureText: true,
       hookDocumentFontsCheck: true,
-      hookOffsetDimensions: false
+      hookOffsetDimensions: true
     },
     work: {
       derivedStateCacheScope: "per_document",
@@ -153,7 +153,7 @@ var MASKING_PRESETS = {
     hooks: {
       hookCanvasMeasureText: true,
       hookDocumentFontsCheck: true,
-      hookOffsetDimensions: false
+      hookOffsetDimensions: true
     },
     work: {
       derivedStateCacheScope: "per_frame_tick",
@@ -331,7 +331,10 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
     return;
   }
   if (message.type === "fontmask/read-state") {
-    readPersisted().then((state) => sendResponse?.({ ok: true, state })).catch(() => sendResponse?.({ ok: false }));
+    readPersisted().then((state) => {
+      const resolved = resolveMaskedConfigFromState(state);
+      sendResponse?.({ ok: true, state, resolved });
+    }).catch(() => sendResponse?.({ ok: false }));
     return true;
   }
   if (message.type === "fontmask/write-state") {
