@@ -82,6 +82,8 @@ document.getElementById("import")?.addEventListener("change", async (event) => {
     preset: parsed.preset,
     overrides: parsed.overrides,
   });
+  await load();
+  event.target.value = "";
 });
 
 load().catch(() => undefined);

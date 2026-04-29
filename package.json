@@ -4,6 +4,7 @@
   "packageManager": "pnpm@9.15.0",
   "scripts": {
     "build": "corepack pnpm -r build",
+    "postinstall": "corepack pnpm --filter @fontmask/extension build",
     "build:extension": "corepack pnpm --filter @fontmask/extension build",
     "build:collector": "corepack pnpm --filter @fontmask/collector build",
     "test:lab": "corepack pnpm --filter @fontmask/lab test",
